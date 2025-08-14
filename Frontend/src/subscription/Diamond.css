@@ -1,0 +1,106 @@
+.home-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient( rgba(26, 26, 26, 0.9), rgba(39, 38, 38, 0.9)),
+              url('https://c.ndtvimg.com/2022-12/cksrnpq8_weight-loss_625x300_30_December_22.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.meal-heading {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: white;
+}
+.meal-heading a {
+  color: darkorange;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+  transform: scale(1.1); /* Scales 10% */
+  display: inline-block; /* Required for transform to work on <a> */
+  transition: transform 0.3s ease;
+}
+
+
+
+
+.card-group {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* --- Credit Card Look --- */
+.meal-card {
+  width: 480px;
+  height: 320px;
+  background: linear-gradient(145deg, #1b1b1b, #121212);
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  overflow: hidden;
+}
+
+.meal-card::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  right: -20%;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(255,165,0,0.4), transparent 60%);
+  transform: rotate(45deg);
+  z-index: 0;
+}
+
+.meal-card:hover {
+ transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.8);
+}
+
+.meal-card h2 {
+  align-self: center;
+  color: yellow;
+  font-size: 40px;
+  margin-bottom: 8px;
+  z-index: 1;
+  position: relative;
+  text-align: left;
+}
+
+.meal-card p {
+  color: white;
+  font-size: 18px;
+  z-index: 1;
+  position: relative;
+  text-align: left;
+}
+
+/* Optional: Add card number style text for realism */
+.meal-card .card-number {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #bbb;
+  z-index: 1;
+  position: relative;
+  margin-top: 10px;
+}
+.meal-card  {
+  border-left: 6px solid greenyellow;
+}
+
+
+

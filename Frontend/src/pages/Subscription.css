@@ -1,0 +1,169 @@
+
+.sub-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient( rgba(26, 26, 26, 0.9), rgba(39, 38, 38, 0.9)),
+              url('https://c.ndtvimg.com/2022-12/cksrnpq8_weight-loss_625x300_30_December_22.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* Heading */
+.sub-container h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: darkorange;
+}
+
+/* Flex layout for plans */
+.plan-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Card Styling */
+.plan-card {
+  width: 460px;
+  height: 620px;
+  background: linear-gradient(145deg, #1b1b1b, #121212);
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Segoe UI', sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  overflow: hidden;
+}
+
+/* Hover effect */
+.plan-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.8);
+}
+
+/* Plan Title */
+.plan-card h2 {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Description */
+.plan-card p {
+  font-size: 29px;
+  color: yellow;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.plan-card button {
+  align-self: center;
+  padding: 10px 20px;
+  background-image: radial-gradient( circle 300.1px at 10% 20%,  rgba(231,255,19,1) 0%, rgba(255,185,22,1) 100.3% );
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: #121212;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.plan-card button:hover {
+  background: #f5f5f5;
+}
+
+/* Accent Left Border */
+.plan-card.free {
+  border-left: 6px solid #9e9e9e;
+}
+.plan-card.diamond {
+  border-left: 6px solid #8e44ad;
+}
+.plan-card.elite {
+  border-left: 6px solid #f39c12;
+}
+
+/* Emoji badge top-left */
+.plan-card::before {
+  content: attr(data-symbol);
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 26px;
+  opacity: 0.8;
+}
+
+/* Popular Tag top-right */
+.plan-card.popular::after {
+  content: 'POPULAR';
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ff6f00;
+  color: white;
+  padding: 5px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 12px;
+  letter-spacing: 1px;
+}
+.plan-card {
+  width: 320px;
+  padding: 20px;
+  margin: 20px;
+   background: linear-gradient(
+    to bottom,
+    #2a2a2a 0%,    /* Dark black at the top */
+    #151515 2%,    /* Slightly darker black, creating a hard edge */
+    #151515 98%,   /* Keeping the darker black for the main body */
+    #000000 100%   /* Pure black at the bottom, creating another hard edge */
+  );
+  border-radius: 15px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.plan-card h2 {
+  text-align: center;
+  color: gold;
+  margin-bottom: 15px;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-card li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.plan-card li::before {
+  content: "•";
+  margin-right: 8px;
+  color: orange;
+}
+
