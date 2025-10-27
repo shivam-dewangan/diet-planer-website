@@ -1,50 +1,49 @@
 # 🥗 Diet Planner Website
 
-The **Diet Planner Website** is a personalized nutrition and meal-planning platform built using the **MERN stack**.  
-It offers structured **30-day diet plans** for users based on their meal preferences — **Veg**, **Non-Veg**, or **Mix**.  
-The website features a **subscription system** with multiple tiers and self-collected meal data for realistic, customized meal options.
+The **Diet Planner Website** is a personalized 30-day meal planning platform built using the **MERN stack**.  
+It helps users follow healthy meal routines according to their preferences — **Veg**, **Non-Veg**, or **Mix** — and subscription levels.  
+All meal data is **self-collected**, ensuring variety and authenticity in each plan.
 
 ---
 
 ## 🌐 Website Preview
 
 ### 🏠 1. Subscription Page
-Choose from different subscription levels — **Free**, **Diamond**, or **Elite** — each unlocking more meal plan features.
-![Subscription Page](frontend/public/subscription.png)
+Choose from different subscription types — **Free**, **Diamond**, or **Elite** — to unlock customized meal plans.
+![Subscription Page](Frontend/public/subscription.png)
 
 ---
 
 ### 🍱 2. Plans Page (Veg / Non-Veg / Mix)
-Select your preferred meal type and explore diet plans tailored to your food preference.
-![Plans Page](frontend/public/type.png)
+Select your preferred meal type and explore curated plans based on your food choice.
+![Plans Page](Frontend/public/plan.png)
 
 ---
 
 ### 🥗 3. Meal Page
-Access detailed **30-day meal schedules**, with different meals for each day based on the chosen plan.
-![Meal Page](frontend/public/meal.png)
+View detailed **30-day meal schedules**. Each day features unique meals depending on your selected plan.
+![Meal Page](Frontend/public/meal.png)
 
 ---
 
-## 💎 Subscription Types
+## 💎 Subscription Plans
 
-Each subscription offers unique access levels:
 | Subscription | Access Level | Description |
 |---------------|---------------|-------------|
-| 🆓 **Free** | Limited | Basic meal previews |
-| 💎 **Diamond** | Medium | Weekly personalized meals |
-| 🌟 **Elite** | Full | Complete 30-day custom meal plan |
+| 🆓 **Free** | Basic | Access to limited meal previews |
+| 💎 **Diamond** | Intermediate | Access to personalized weekly meals |
+| 🌟 **Elite** | Premium | Full 30-day meal access with all features |
 
 ---
 
 ## 🍽️ Meal Types
 
-The platform provides three distinct meal types:
-- 🥬 **Veg Plan** — Purely vegetarian meals  
-- 🍗 **Non-Veg Plan** — Protein-rich non-veg options  
-- 🍱 **Mix Plan** — Balanced mix of veg and non-veg meals  
+The platform offers three types of meal plans:
+- 🥬 **Veg Plan** — 100% vegetarian meals  
+- 🍗 **Non-Veg Plan** — Protein-rich meals for non-vegetarian users  
+- 🍱 **Mix Plan** — Balanced blend of both Veg and Non-Veg meals  
 
-Each plan includes **unique meals every day for 30 days**, collected and curated from real dietary data.
+Each plan includes a **unique 30-day schedule** designed with self-collected meal data.
 
 ---
 
@@ -56,3 +55,10 @@ Each plan includes **unique meals every day for 30 days**, collected and curated
 - **Styling:** CSS / Tailwind CSS  
 - **Data:** Self-collected meal dataset  
 
+---
+
+## 🚀 Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/diet-planner.git
