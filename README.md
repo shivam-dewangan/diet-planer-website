@@ -16,7 +16,7 @@ Choose from different subscription types — **Free**, **Diamond**, or **Elite**
 
 ### 🍱 2. Plans Page (Veg / Non-Veg / Mix)
 Select your preferred meal type and explore curated plans based on your food choice.
-![Plans Page](Frontend/public/plan.png)
+![Plans Page](Frontend/public/type.png)
 
 ---
 
