@@ -10,19 +10,19 @@ The website features a **subscription system** with multiple tiers and self-coll
 
 ### 🏠 1. Subscription Page
 Choose from different subscription levels — **Free**, **Diamond**, or **Elite** — each unlocking more meal plan features.
-![Subscription Page](public/subscription.png)
+![Subscription Page](frontend/public/subscription.png)
 
 ---
 
 ### 🍱 2. Plans Page (Veg / Non-Veg / Mix)
 Select your preferred meal type and explore diet plans tailored to your food preference.
-![Plans Page](public/type.png)
+![Plans Page](frontend/public/type.png)
 
 ---
 
 ### 🥗 3. Meal Page
 Access detailed **30-day meal schedules**, with different meals for each day based on the chosen plan.
-![Meal Page](public/meal.png)
+![Meal Page](frontend/public/meal.png)
 
 ---
 
